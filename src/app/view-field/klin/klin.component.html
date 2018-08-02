@@ -1,0 +1,15 @@
+<h3>Клиновидная таблица</h3>
+
+<p>
+	Под счёт метронома спускаться на 1 строку вниз при каждом гудке. При этом смотри на цифру и читай все буквы на текущей строке.<br>
+</p>
+
+<button id="short_metronome_timer">&#10144; Включить метроном на 2 минуты</button>
+
+<div id='klin'>
+	<div class="klin_left" [innerHTML]="klinLeft"></div>
+	<div class="klin_center">
+		<div *ngFor="let c of counter">{{ c }}</div>
+	</div>
+	<div class="klin_right" [innerHTML]="klinRight"></div>
+</div>

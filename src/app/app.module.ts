@@ -8,8 +8,17 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
-import { MainComponent } from './main/main.component';
 import { AppComponent } from './app.component';
+import { RecomendationsComponent } from './recomendations/recomendations.component';
+import { RegressionComponent } from './regression/regression.component';
+import { ArticulationComponent } from './articulation/articulation.component';
+import { ViewFieldComponent } from './view-field/view-field.component';
+import { KlinComponent } from './view-field/klin/klin.component';
+import { ShulteComponent } from './view-field/shulte/shulte.component';
+import { StepsComponent } from './view-field/steps/steps.component';
+import { MetronomeComponent } from './metronome/metronome.component';
+import { TimerComponent } from './timer/timer.component';
+
 import { HttpService } from './http.service';
 
 mergeAllIconsToOneObject();
@@ -17,7 +26,15 @@ mergeAllIconsToOneObject();
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    KlinComponent,
+    RegressionComponent,
+    ArticulationComponent,
+    ViewFieldComponent,
+    ShulteComponent,
+    StepsComponent,
+    RecomendationsComponent,
+    MetronomeComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,

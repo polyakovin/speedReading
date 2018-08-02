@@ -1,0 +1,29 @@
+#klin {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 630px;
+  margin: 20px auto;
+
+  .klin_left {
+    float: left;
+    text-align: right;
+    width: 300px;
+  }
+
+  .klin_center {
+    float: left;
+    text-align: center;
+    width: 30px;
+  }
+
+  .klin_right {
+    float: right;
+    text-align: left;
+    width: 300px;
+  }
+
+  div div {
+    margin-bottom: 10px;
+  }
+}

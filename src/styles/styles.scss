@@ -21,3 +21,123 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1200px) {} // lg
 
 
+
+
+
+// html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
+
+// body, input, option, select{
+// 	font-family: serif;
+// 	font-size: 14pt;
+// }
+
+body {
+	padding: 0 30px 200px 30px;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 30px 0 10px 0;
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 24pt;
+}
+
+h2 {
+	font-size: 21pt;
+}
+
+h3 {
+	text-align: left;
+	font-weight: 900;
+	font-size: 18pt;
+	margin: 20px 0 10px 20px;
+}
+
+ul {
+	margin: 10px 30px 30px 30px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li ul {
+	margin: 10px 0 20px 20px;
+}
+
+center {
+	font-style: italic;
+	color: #999;
+}
+
+.dark_background {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+#MetronomeSettings {
+	display: none;
+	position: fixed;
+	top: 300px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0 0 15px #000;
+	z-index: 3;
+	margin: 0 auto;
+	width: 420px;
+	padding: 10px;
+	text-align: center;
+}
+
+#MetronomeSettings h4 {
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+#MetronomeSettings div:nth-child(even) {
+	margin-bottom: 5px;
+}
+
+#MetronomeSettings div:nth-child(odd) {
+	margin-bottom: 15px;
+}
+
+#MetronomeSettings div:last-child {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#timer, #timer2, #shulte, #short_metronome_timer, #metronome_timer {
+	color: blue;
+	margin-top: 5px;
+	padding-left: 20px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+}
+
+#tempo_slider .ui-slider-range,
+#frequency_slider .ui-slider-range,
+#delay_slider .ui-slider-range { background: #ccc; }
+
+#tempo_slider .ui-slider-handle,
+#frequency_slider .ui-slider-handle,
+#delay_slider .ui-slider-handle { border-color: #ccc; }
