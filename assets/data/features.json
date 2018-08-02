@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Angular",
+    "version": "6.1.0",
+    "link": "https://angular.io/docs",
+    "icon": "angular"
+  },
+  {
+    "name": "jQuery",
+    "version": "3.3.1",
+    "link": "https://api.jquery.com/",
+    "icon": "js"
+  },
+  {
+    "name": "Bootstrap",
+    "version": "4.1.3",
+    "link": "https://getbootstrap.com/docs/4.1/getting-started/introduction/",
+    "icon": "bold"
+  },
+  {
+    "name": "Font Awesome",
+    "version": "5.2",
+    "link": "https://github.com/FortAwesome/angular-fontawesome",
+    "icon": "font-awesome"
+  }
+]
